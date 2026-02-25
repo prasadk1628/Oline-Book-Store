@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login - Online Book Store</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+.login-container{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:40px;
+}
+
+/* FORM BOX */
+.form-box{
+background:white;
+padding:25px;
+width:350px;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+.form-box input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:4px;
+}
+
+button{
+background:#ff9900;
+border:none;
+padding:12px;
+width:100%;
+font-size:16px;
+cursor:pointer;
+}
+
+h3{
+margin-top:0;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<h2>The Reader's Book Store</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="catalog.html">Books</a>
+<a href="cart.html">Cart</a>
+<a href="profile.html">Profile</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<div class="login-container">
+
+<!-- LOGIN -->
+<div class="form-box">
+<h3>User Login</h3>
+
+<input type="email" placeholder="Email">
+<input type="password" placeholder="Password">
+
+<a href="profile.html">
+<button>Login</button>
+</a>
+
+<p style="font-size:13px;">
+(Demo login — static site)
+</p>
+</div>
+
+<p style="text-align: middle;"> <b> OR </p>   
+
+<!-- REGISTER -->
+<div class="form-box">
+<h3>New User Registration</h3>
+
+<input type="text" placeholder="Full Name">
+<input type="email" placeholder="Email">
+<input type="password" placeholder="Password">
+<input type="text" placeholder="Phone Number">
+
+<a href="profile.html">
+<button>Register</button>
+</a>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+<p>© 2026 Online Book Store</p>
+</div>
+
+</body>
+</html>

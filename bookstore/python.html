@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Details</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+/* MAIN LAYOUT */
+.book-details{
+display:flex;
+padding:40px;
+background:white;
+margin:30px;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+.book-image img{
+width:260px;
+height:360px;
+}
+
+.book-info{
+margin-left:40px;
+max-width:600px;
+}
+
+.rating{
+color:#f0c14b;
+font-size:20px;
+}
+
+.price{
+color:#b12704;
+font-size:24px;
+font-weight:bold;
+}
+
+button{
+background:#ff9900;
+border:none;
+padding:12px 20px;
+font-size:16px;
+cursor:pointer;
+margin-top:15px;
+}
+
+/* DESCRIPTION */
+.description{
+background:white;
+margin:30px;
+padding:25px;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+/* REVIEWS */
+.review{
+border-top:1px solid #ccc;
+padding:15px 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<h2>Online Book Store</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="catalog.html">Books</a>
+<a href="cart.html">Cart</a>
+<a href="profile.html">Profile</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<!-- BOOK MAIN SECTION -->
+<div class="book-details">
+
+<div class="book-image">
+<img src="/home/prasad/Desktop/bookstore/Image/py.jpg">
+</div>
+
+<div class="book-info">
+
+<h1>Python for Beginners</h1>
+
+<p><b>Author:</b> John Smith</p>
+
+<p class="rating">★★★★★ (1,245 ratings)</p>
+
+<p class="price">₹450</p>
+
+<p>
+A complete beginner-friendly guide to Python programming.
+Learn variables, loops, functions, file handling and
+real-world projects step-by-step.
+</p>
+
+<a href="/home/prasad/Desktop/bookstore/cart.html">
+<button>Add to Cart</button>
+</a>
+
+</div>
+
+</div>
+
+<!-- DESCRIPTION SECTION -->
+<div class="description">
+
+<h2>Book Description</h2>
+
+<p>
+This book introduces programming concepts using Python in a
+simple and practical way. It is designed for students and
+self-learners who want to start coding from zero experience.
+Each chapter includes exercises and mini projects.
+</p>
+
+<h3>What You Will Learn</h3>
+<ul>
+<li>Python syntax and basics</li>
+<li>Problem solving techniques</li>
+<li>Functions and modules</li>
+<li>File handling</li>
+<li>Mini real-world projects</li>
+</ul>
+
+</div>
+
+<!-- REVIEWS -->
+<div class="description">
+
+<h2>Customer Reviews</h2>
+
+<div class="review">
+<p class="rating">★★★★★</p>
+<p><b>Rahul K.</b> — Excellent for beginners!</p>
+</div>
+
+<div class="review">
+<p class="rating">★★★★☆</p>
+<p><b>Anita S.</b> — Easy explanations and examples.</p>
+</div>
+
+<div class="review">
+<p class="rating">★★★★★</p>
+<p><b>Vikram P.</b> — Helped me start coding quickly.</p>
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+
+</div>
+
+</body>
+</html>

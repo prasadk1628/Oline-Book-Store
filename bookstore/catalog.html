@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Catalog</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+/* catalog layout */
+.catalog-container{
+display:flex;
+}
+
+/* LEFT SIDEBAR */
+.sidebar{
+width:220px;
+background:white;
+padding:20px;
+box-shadow:0 0 6px rgba(0,0,0,0.2);
+}
+
+.sidebar a{
+display:block;
+margin:12px 0;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.sidebar a:hover{
+color:#ff9900;
+}
+
+/* RIGHT CONTENT */
+.catalog-content{
+flex:1;
+padding:25px;
+}
+
+.category-card{
+background:white;
+display:inline-block;
+width:240px;
+margin:15px;
+padding:20px;
+text-align:center;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+border-radius:5px;
+}
+
+.category-card:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<h2>Online Book Store</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="catalog.html">Books</a>
+<a href="cart.html">Cart</a>
+<a href="profile.html">Profile</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<div class="catalog-container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+<h3>Categories<b></h3>
+<hr>
+
+<a href="education.html">Education</a>
+<a href="philosophy.html">Philosophy</a>
+<a href="fantasy.html">Fantasy</a>
+<a href="technology.html">Technology</a>
+
+</div>
+
+<!-- MAIN AREA -->
+<div class="catalog-content">
+
+<h2>Browse Book Categories</h2>
+
+<div class="category-card">
+<h3>Education</h3>
+<p>Academic and learning books</p>
+<a href="education.html">Explore</a>
+</div>
+
+<div class="category-card">
+<h3>Philosophy</h3>
+<p>Wisdom and deep thinking</p>
+<a href="philosophy.html">Explore</a>
+</div>
+
+<div class="category-card">
+<h3>Fantasy</h3>
+<p>Adventure and imagination</p>
+<a href="fantasy.html">Explore</a>
+</div>
+
+<div class="category-card">
+<h3>Technology</h3>
+<p>Programming & AI books</p>
+<a href="technology.html">Explore</a>
+</div>
+
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+<p>© 2026 Online Book Store</p>
+</div>
+
+</body>
+</html>
