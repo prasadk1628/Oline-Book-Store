@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fantasy Books</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+/* BOOK GRID */
+.book-container{
+padding:30px;
+}
+
+.book-card{
+background:white;
+display:inline-block;
+width:220px;
+margin:15px;
+padding:15px;
+vertical-align:top;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+border-radius:5px;
+text-align:center;
+}
+
+.book-card img{
+width:160px;
+height:220px;
+}
+
+.book-card p{
+font-size:14px;
+}
+
+.rating{
+color:#f0c14b;
+font-size:18px;
+}
+
+.book-card:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
+
+button{
+background:#ff9900;
+border:none;
+padding:8px;
+cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<h2>Online Book Store</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="catalog.html">Books</a>
+<a href="cart.html">Cart</a>
+<a href="profile.html">Profile</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<!-- CATEGORY TITLE -->
+<div class="section">
+<h2>Fantasy Books</h2>
+<p>Here are some highly acclaimed fantasy books.</p>
+</div>
+
+<!-- BOOK GRID -->
+<div class="book-container">
+
+<!-- BOOK 1 -->
+<div class="book-card">
+<img src="Image/The_Lord_of_the_Rings.jpg">
+<h3>The Lord of the Rings</h3>
+<p><b>Author:</b> J.R.R. Tolkien</p>
+<p class="rating">★★★★★</p>
+<p> The foundational epic of modern fantasy, following a quest to destroy a powerful ring and save Middle-earth</p>
+<h4>₹450</h4>
+<a href="LordofRings.html"><button>View Details</button></a>
+</div>
+
+<!-- BOOK 2 -->
+<div class="book-card">
+<img src="Image/Song_of_Ice_and_Fire_book.jpg">
+<h3>A Song of Ice and Fire</h3>
+<p><b>Author:</b> George R.R. Martin</p>
+<p class="rating">★★★★☆</p>
+<p>A gritty, politically charged series (basis for Game of Thrones) known for its complex characters and unpredictable twists.</p>
+<h4>₹520</h4>
+<a href="songandice.html"><button>View Details</button></a>
+</div>
+
+<!-- BOOK 3 -->
+<div class="book-card">
+<img src="Image/The_Earthsea_Cycle.jpg">
+<h3>The Earthsea Cycle </h3>
+<p><b>Author:</b> Ursula K. Le Guin</p>
+<p class="rating">★★★★☆</p>
+<p>A philosophical and lyrical series exploring balance, identity, and the power of names.</p>
+<h4>₹600</h4>
+<a href="Earthsea Cycle.html"><button>View Details</button></a>
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+
+</div>
+
+</body>
+</html>

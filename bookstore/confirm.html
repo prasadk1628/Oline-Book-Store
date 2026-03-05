@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Confirmation</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+.confirm-box{
+background:white;
+width:700px;
+margin:40px auto;
+padding:30px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.success{
+color:green;
+font-size:28px;
+margin-bottom:10px;
+}
+
+.order-details{
+text-align:left;
+margin-top:25px;
+}
+
+.order-row{
+display:flex;
+justify-content:space-between;
+padding:8px 0;
+border-bottom:1px solid #ccc;
+}
+
+.total{
+font-weight:bold;
+font-size:18px;
+}
+
+.home-btn{
+background:#ff9900;
+border:none;
+padding:12px 20px;
+margin-top:20px;
+font-size:16px;
+cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<h2>Online Book Store</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="catalog.html">Books</a>
+<a href="cart.html">Cart</a>
+<a href="profile.html">Profile</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<div class="confirm-box">
+
+<div class="success">
+✅ Order Confirmed!
+</div>
+
+<p>Thank you for your purchase.</p>
+<p><b>Order ID:</b> #OBS20260045</p>
+
+<div class="order-details">
+
+<h3>Order Summary</h3>
+
+<div class="order-row">
+<span>Python for Beginners</span>
+<span>₹450</span>
+</div>
+
+<div class="order-row">
+<span>Machine Learning Basics</span>
+<span>₹650</span>
+</div>
+
+<div class="order-row total">
+<span>Total Paid</span>
+<span>₹1140</span>
+</div>
+
+<h3>Delivery Information</h3>
+<p>
+Prasad<br>
+Hyderabad, Telangana<br>
+Delivery in 3–5 business days
+</p>
+
+</div>
+
+<a href="index.html">
+<button class="home-btn">Continue Shopping</button>
+</a>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+<p>© 2026 Online Book Store</p>
+</div>
+
+</body>
+</html>

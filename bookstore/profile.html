@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Profile</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+.profile-container{
+display:flex;
+gap:30px;
+padding:30px;
+}
+
+/* LEFT CARD */
+.profile-card{
+flex:1;
+background:white;
+padding:25px;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.profile-card img{
+width:120px;
+height:120px;
+border-radius:50%;
+margin-bottom:15px;
+}
+
+/* RIGHT SECTION */
+.profile-details{
+flex:2;
+background:white;
+padding:25px;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+.section-title{
+margin-top:0;
+}
+
+.order{
+border-bottom:1px solid #ccc;
+padding:12px 0;
+display:flex;
+justify-content:space-between;
+}
+
+button{
+background:#ff9900;
+border:none;
+padding:10px 15px;
+cursor:pointer;
+margin-top:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<h2>Online Book Store</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="catalog.html">Books</a>
+<a href="cart.html">Cart</a>
+<a href="profile.html">Profile</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<div class="profile-container">
+
+<!-- USER CARD -->
+<div class="profile-card">
+
+<img src="/home/prasad/Desktop/bookstore/Image/user.jpg" alt="User">
+
+<h2>Prasad</h2>
+<p>B.Tech Student</p>
+<p><b>Email:</b> prasad@email.com</p>
+
+<button>Edit Profile</button>
+
+</div>
+
+<!-- DETAILS -->
+<div class="profile-details">
+
+<h2 class="section-title">Delivery Address</h2>
+<p>
+Prasad<br>
+Hyderabad, Telangana<br>
+India – 500001
+</p>
+
+<hr>
+
+<h2>Recent Orders</h2>
+
+<div class="order">
+<span>Python for Beginners</span>
+<span>Delivered</span>
+</div>
+
+<div class="order">
+<span>Machine Learning Basics</span>
+<span>Shipped</span>
+</div>
+
+<div class="order">
+<span>On the Shortness of Life</span>
+<span>Processing</span>
+</div>
+
+<a href="catalog.html">
+<button>Continue Shopping</button>
+</a>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+<p>© 2026 Online Book Store</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Details</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+/* MAIN LAYOUT */
+.book-details{
+display:flex;
+padding:40px;
+background:white;
+margin:30px;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+.book-image img{
+width:260px;
+height:360px;
+}
+
+.book-info{
+margin-left:40px;
+max-width:600px;
+}
+
+.rating{
+color:#f0c14b;
+font-size:20px;
+}
+
+.price{
+color:#b12704;
+font-size:24px;
+font-weight:bold;
+}
+
+button{
+background:#ff9900;
+border:none;
+padding:12px 20px;
+font-size:16px;
+cursor:pointer;
+margin-top:15px;
+}
+
+/* DESCRIPTION */
+.description{
+background:white;
+margin:30px;
+padding:25px;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+/* REVIEWS */
+.review{
+border-top:1px solid #ccc;
+padding:15px 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<h2>Online Book Store</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="catalog.html">Books</a>
+<a href="cart.html">Cart</a>
+<a href="profile.html">Profile</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<!-- BOOK MAIN SECTION -->
+<div class="book-details">
+
+<div class="book-image">
+<img src="images/python.jpg">
+</div>
+
+<div class="book-info">
+
+<h1>Python for Beginners</h1>
+
+<p><b>Author:</b> John Smith</p>
+
+<p class="rating">★★★★★ (1,245 ratings)</p>
+
+<p class="price">₹450</p>
+
+<p>
+Man’s Search for Meaning by Viktor Frankl is a powerful memoir and psychological work based on his experiences as a prisoner in Nazi concentration camps during World War II. The book argues that the primary human drive is not pleasure, but the search for meaning.
+</p>
+
+<a href="cart.html">
+<button>Add to Cart</button>
+</a>
+
+</div>
+
+</div>
+
+<!-- DESCRIPTION SECTION -->
+<div class="description">
+
+<h2>Book Description</h2>
+
+<p>
+Frankl observed that those who survived the camps often did so because they found purpose—through love, work, or the courage to endure suffering. He concludes that even in the most horrific conditions, individuals retain the freedom to choose their attitude and response.
+</p>
+
+<h3>What You Will Learn</h3>
+<ul>
+<li>Life asks the questions—we must answer through action and choice</li>
+<li>He who has a why to live can bear almost any how</li>
+<li>Meaning can be found in three ways:
+    <ul>
+        <li>Work – Doing something meaningful</li>
+        <li>Love – Caring deeply for another</li>
+        <li>Suffering – Finding purpose in pain by how we bear it</li>
+    </ul>
+</li>
+</ul>
+
+</div>
+
+<!-- REVIEWS -->
+<div class="description">
+
+<h2>Customer Reviews</h2>
+
+<div class="review">
+<p class="rating">★★★★★</p>
+<p><b>Ram K.</b> — Excellent for Doing something meaningful</p>
+</div>
+
+<div class="review">
+<p class="rating">★★★★☆</p>
+<p><b>Anjali S.</b> — Easy explanations and examples.</p>
+</div>
+
+<div class="review">
+<p class="rating">★★★★★</p>
+<p><b>Vikranth P.</b> — Helped me start Caring deeply for another.</p>
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+
+</div>
+
+</body>
+</html>

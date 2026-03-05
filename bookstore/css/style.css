@@ -1,0 +1,84 @@
+/* ===== GLOBAL RESET ===== */
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f3f3f3;
+}
+
+/* ===== HEADER ===== */
+.header{
+    background:#131921;
+    color:white;
+    padding:15px 25px;
+}
+
+.header h2{
+    margin:0;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ff9900;
+}
+
+/* ===== HERO SECTION ===== */
+.hero{
+    background:#232f3e;
+    color:white;
+    padding:60px;
+    text-align:center;
+}
+
+.hero h1{
+    margin:0;
+    font-size:40px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+/* ===== CATEGORY SECTION ===== */
+.section{
+    padding:30px;
+}
+
+.category{
+    background:white;
+    display:inline-block;
+    width:220px;
+    margin:15px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+    border-radius:5px;
+}
+
+.category a{
+    text-decoration:none;
+    color:black;
+}
+
+.category:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+/* ===== FOOTER ===== */
+.footer{
+    background:#131921;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
